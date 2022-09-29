@@ -1,2 +1,10 @@
 # flags-web-client
-HTML/JavaScript client to the flags game server
+
+## Play Online
+
+[marinm.net/flags](https://marinm.net/flags)
+
+
+## Screenshot
+
+![alt text](screenshot.png "Gameplay demo")
