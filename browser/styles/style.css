@@ -96,6 +96,7 @@ canvas {
 }
 
 #turn-score-container {
+    width: 10em;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -104,7 +105,6 @@ canvas {
     align-content: stretch;
     text-align: center;
     margin: 10px auto 0 auto;
-    width: 30%;
     overflow: hidden;
     border: 3px solid orange;
     border-radius: 8px;
