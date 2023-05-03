@@ -40,7 +40,7 @@ body {
     text-align: center;
     font-weight: bold;
     width: 80%;
-    margin: auto;
+    margin: 1em auto;
     border-radius: 8px;
 }
 
@@ -92,13 +92,18 @@ body {
 canvas {
     border: 3px solid #f6d084;
     box-shadow: 0 0 0 3px #964d0c;
-    border-radius: 12px;
+    border-radius: 0.4em;
 }
 
 #turn-score-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    align-content: stretch;
     text-align: center;
     margin: 10px auto 0 auto;
-    display: block;
     width: 30%;
     overflow: hidden;
     border: 3px solid orange;
@@ -112,8 +117,7 @@ canvas {
 }
 
 .score-box {
-    display: inline-block;
-    width: 50%;
+    flex: 1;
     box-sizing: border-box;
     padding: 8px 0 5px 0;
     font-family: arial;
@@ -211,4 +215,44 @@ img {
     margin-top: 10px;
     font-size: 50%;
     font-weight: bold;
+}
+
+
+
+
+.progress-bar-container {
+    margin: 1em auto;
+    border: 0.2em solid #FFC73E;
+    box-shadow: 0 0 0 0.2em #9B4D12;
+    background-color: #8E480F;
+    width: 100%;
+    height: 2em;
+    border-radius: 0.4em;
+    padding: 0.3em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.progress-bar {
+    background-color: #FF9D2C;
+    height: 100%;
+    width: 20%;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+.join-game-btn {
+    background-color: #E9A158;
+    border: 0.2em solid #995015;
+    color: #FFFFFF;
+    display: inline-block;
+    padding: 0.4em 0.5em;
+    border-radius: 0.4em;
+    font-size: 90%;
+    font-weight: bold;
+    cursor: pointer;
 }
